@@ -1,0 +1,155 @@
+*{
+    background-color: antiquewhite;
+}
+
+/*
+    .main{
+  font-family: "Poppins", sans-serif;
+  margin: px;
+  text-align: center;
+  
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.logoHeader{
+    height: 20px;
+    width:px;
+    background-color: aquamarine;
+      
+}
+
+
+.creative{
+    color:rgb(18, 18, 197);
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.logo{
+    width:100px;
+  }
+
+  
+
+  h1{
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo{
+    
+
+  }
+
+  .left{
+    float: left;
+  }
+
+
+  .right{
+    float:left
+  }
+
+ 
+  
+
+  .tile-image {
+    height: 200px;
+    
+  }
+*/
+
+.main{
+    background-color: black;
+}
+.logoHeader{
+    color:chartreuse;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .title-image{
+    float: left;
+    width: 200px;
+    height: 200px;
+  }
+
+  .left{
+    float: left;
+  }
+
+@media (min-width: 700px){
+    .logoHeader{
+        color:brown;
+        height: 40px;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .main{
+        background-color: antiquewhite;
+    }
+    .logoHeader {
+      width: 100px;
+      color:blueviolet;
+    }
+  
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+  
+    .card {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+  
+    img {
+      margin-bottom: 10px;
+      width: 100%;
+      display: inline;
+      
+    }
+    .title-image{
+        float: left;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+      }
+    h2{
+        font-size: 40px;
+        text-align: center;
+       
+    }
+ 
+  }
+
+  footer{
+    background-color: blueviolet;
+    color: bisque;
+    text-align: center;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  
+  
+ 
+  
+ 
+ 
+  
+
+  
+  
