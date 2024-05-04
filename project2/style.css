@@ -1,155 +1,119 @@
-*{
-    background-color: antiquewhite;
+
+
+  *{
+  margin: 0;
+  padding: 0;
 }
 
-/*
-    .main{
-  font-family: "Poppins", sans-serif;
-  margin: px;
+footer{
+  padding: 26px;
+  color:antiquewhite;
+  background-color: rgb(41, 6, 75);
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  background-color: aquamarine;
+  display: flex;
+  padding: 15px;
+  text-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   
-  flex-direction: column;
-  min-height: 95vh;
+}
+
+img{
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  padding-top: 0;
+
 }
 
 .logoHeader{
-    height: 20px;
-    width:px;
-    background-color: aquamarine;
-      
+  text-transform: lowercase;
+  color:#f08804;
+  font-size: 16px;
+  height:45px;
+  background-color: #0f1111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
 }
 
+.left-card{
+  display: block;
+  float:right;
+}
+
+.bodyHeader{
+  margin-top: 10px;
+  padding-top: 10px;
+  
+}
 
 .creative{
-    color:rgb(18, 18, 197);
-    padding: 10px;
-    background-color: aquamarine;
+  color: rgb(25, 25, 207);
 }
 
-.logo{
-    width:100px;
-  }
-
-  
-
-  h1{
-    display: flex;
-    background-color: aquamarine;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .logo{
-    
-
-  }
-
-  .left{
-    float: left;
-  }
-
-
-  .right{
-    float:left
-  }
-
- 
-  
-
-  .tile-image {
-    height: 200px;
-    
-  }
-*/
-
-.main{
-    background-color: black;
+button{
+  background-color: #f08804;
 }
-.logoHeader{
-    color:chartreuse;
+
+a{
+  margin:40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 50px;
+}
+
+.bodyContent{
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 20px;
+  float: left;
+}
+
+h1{
+  font-size: 80px;
+  margin-top: 100px;
+
+}
+
+
+.logoHeader:hover{
+  border: 1px solid white;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
   }
 
-  h2{
+  h1 {
+    font-size: 3.5rem;
     text-align: center;
   }
 
-  .title-image{
-    float: left;
-    width: 200px;
-    height: 200px;
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
   }
 
-  .left{
-    float: left;
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
   }
-
-@media (min-width: 700px){
-    .logoHeader{
-        color:brown;
-        height: 40px;
-    }
-
 }
 
-@media (max-width: 700px) {
-    .main{
-        background-color: antiquewhite;
-    }
-    .logoHeader {
-      width: 100px;
-      color:blueviolet;
-    }
-  
-    h1 {
-        font-size: 30px;
-        text-align: center;
-    }
-  
-    .card {
-      width: 100%;
-      display: block;
-      margin-bottom: 30px;
-      text-align: justify;
-    }
-  
-    img {
-      margin-bottom: 10px;
-      width: 100%;
-      display: inline;
-      
-    }
-    .title-image{
-        float: left;
-        width: 100px;
-        height: 100px;
-        object-fit: cover;
-      }
-    h2{
-        font-size: 40px;
-        text-align: center;
-       
-    }
- 
-  }
 
-  footer{
-    background-color: blueviolet;
-    color: bisque;
-    text-align: center;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-  }
-
-  
-  
- 
-  
- 
- 
-  
-
-  
-  
