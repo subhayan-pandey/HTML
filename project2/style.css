@@ -38,6 +38,10 @@ img{
 
 .bodyHeader{
   font-weight: 70px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 60px;
+  display: flex;
   
 }
 
@@ -58,22 +62,27 @@ button{
   padding: 5px;
   margin: 20px;
   display: flex;
-  margin-top: 100px;
+  margin-top: 70px;
+  padding: 40px;
   
 }
 
 
-
+.card-text{
+  margin: 5px;
+  
+}
 
 .left-card{
   float: left;
   height: 100%;
+  
 }
 
 .right-card{
   float: right;
   height: 100%;
-  margin-left: 0;
+  margin-left:60px ;
   padding-left: 0;
 }
 
@@ -107,7 +116,7 @@ button{
   }
 
   .body-content{
-    display: inline;
+    
   }
   h1{
     text-align: center;
