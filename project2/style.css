@@ -57,6 +57,8 @@ button{
   text-align: justify;
   padding: 5px;
   margin: 20px;
+  display: flex;
+  margin-top: 100px;
   
 }
 
@@ -65,10 +67,12 @@ button{
 
 .left-card{
   float: left;
+  height: 100%;
 }
 
 .right-card{
   float: right;
+  height: 100%;
   margin-left: 0;
   padding-left: 0;
 }
@@ -101,6 +105,10 @@ button{
     color: rgb(187, 20, 20);
     text-align: center;
   }
+
+  .body-content{
+    display: inline;
+  }
   h1{
     text-align: center;
     column-gap: 2px;
@@ -122,7 +130,6 @@ button{
     visibility: collapse;
   }
 }
-
 
 
 
